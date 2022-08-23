@@ -2,6 +2,7 @@
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../assets/img/logo.svg';
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
@@ -30,7 +31,9 @@ const onUpdateActiveLink = (value) => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">Brand</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <img src={logo} alt="Logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
