@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
+nav.navbar a.navbar-brand {
+    width: 9%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
