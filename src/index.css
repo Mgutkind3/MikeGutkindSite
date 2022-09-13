@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #2f3e46;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,8 +13,13 @@ code {
     monospace;
 }
 
-.center-navbar {
+.center-navbar{
   text-align: center;
+  background-color: #2f3e46;
+}
+
+.center-navbar a{
+  color: #cad2c5;
 }
 
 .center-navbar .navbar {
