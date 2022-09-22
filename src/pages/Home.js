@@ -16,3 +16,4 @@ export const Home = () => {
 export default Home;
 
 //color scheme: https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
+//https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/
